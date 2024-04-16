@@ -44,3 +44,28 @@ console.log(typeof soreValue );// result number = number , boolean = boolean , s
 
 console.log(typeof myFunction);//result function = object function ,  all non primitive is givre in typeof = function
 
+
+
+//**************************************************** 
+// Stack(Primitive)  and Heap(non primitive)
+
+let myYoutubename = "Ritikaaraidotcom"
+
+let anothername = myYoutubename
+anothername = "chai aur code"
+
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "simple@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);

@@ -60,3 +60,40 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+const course = {
+    coursename : "js in hindi", 
+    price :  "999",
+    courseInstructor : "ritika"
+}
+
+//console.log(course.price);
+
+
+//another Syntax for print the objects
+const {courseInstructor}  = course
+console.log(courseInstructor);
+
+//D - structure in object means  change the name of the object for call
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+
+//API concept;- format in object and also in array IM JSON
+
+//object in API (JSON)
+{
+    "name" : "ritika",
+    "cuoursename ": "js in hindi",
+    "price": "free"
+
+}
+
+//array in API (JSON)
+[
+    {},
+    {},
+    {},
+]
